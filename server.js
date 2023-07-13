@@ -43,7 +43,7 @@ mongoose.connect(
     if (err) console.log(err);
     
     console.log("database connected");
-    console.log(process.env.MONGO_DB_PATH);
+    // console.log(process.env.MONGO_DB_PATH);
 
   }
 );
